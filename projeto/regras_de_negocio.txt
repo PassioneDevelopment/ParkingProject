@@ -1,0 +1,18 @@
+	Regras de negócio para os carros: 
+
+O numero de carros nunca pode ser maior que o numero de vagas. 
+
+O valor do estacionamento varia de acordo com a categoria do veículo. 
+
+O ID do carro, será composto sempre de (3 ultimos numeros do RG do cliente + "_" + id crescente de todos os carros daquele dia.)
+
+	Regras de negócio para os funcionários: 
+
+Três cargos possíveis,  frentista(Não tem acesso ao sistema)
+		 	operador(Tem acesso parcial ao sistema(acesso a todo o sistema dos carros mas não tem acesso ao sistema de funcionários))
+			gerente(Tem acesso total ao sistema) 
+
+
+
+
+

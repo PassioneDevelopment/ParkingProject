@@ -1,0 +1,10 @@
+1 - Tela de login (Precisa ser feita a validação para saber se é um operador ou um gerente.) 
+
+2.1 - Tela para acessar a aba de tela de sistemas relacionados aos funcionários,a tela de sistemas relacionados aos carros (Tela utilizada somente pelo gerente.) ou a tela de personalizar o sistema(decidir quanto custa a hora por exemplo).
+
+2.2 - Tela para acessar a aba de tela de sistemas relacionados aos carros.
+
+3 - Tela para gerenciar o sistema de automóveis(Tela apenas para seleção dos carros, como se fosse uma seleção de cadeiras do cinema, nessa tela vão haver dois botões, após selecionar a vaga, você tem duas opções de botões(personalizar) e (registrar novos carros) e (fazer o check-in de saída). Nessa tela, ao passar o mouse em uma das vagas, será exibida uma janela com informações sobre aquele carro.
+
+4 - Tela para gerenciar o sistema de funcionários(apenas gerente)
+

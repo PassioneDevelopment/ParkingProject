@@ -1,0 +1,10 @@
+E:\Parking_project\ParkingProject\ParkingProject\ParkingProject\bin\Debug\ParkingProject.exe.config
+E:\Parking_project\ParkingProject\ParkingProject\ParkingProject\bin\Debug\ParkingProject.exe
+E:\Parking_project\ParkingProject\ParkingProject\ParkingProject\bin\Debug\ParkingProject.pdb
+E:\Parking_project\ParkingProject\ParkingProject\ParkingProject\obj\Debug\ParkingProject.csprojAssemblyReference.cache
+E:\Parking_project\ParkingProject\ParkingProject\ParkingProject\obj\Debug\ParkingProject.Form1.resources
+E:\Parking_project\ParkingProject\ParkingProject\ParkingProject\obj\Debug\ParkingProject.Properties.Resources.resources
+E:\Parking_project\ParkingProject\ParkingProject\ParkingProject\obj\Debug\ParkingProject.csproj.GenerateResource.cache
+E:\Parking_project\ParkingProject\ParkingProject\ParkingProject\obj\Debug\ParkingProject.csproj.CoreCompileInputs.cache
+E:\Parking_project\ParkingProject\ParkingProject\ParkingProject\obj\Debug\ParkingProject.exe
+E:\Parking_project\ParkingProject\ParkingProject\ParkingProject\obj\Debug\ParkingProject.pdb

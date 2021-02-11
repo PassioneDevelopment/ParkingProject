@@ -15,12 +15,12 @@ namespace ParkingProject.Heranca_Pessoa
         public virtual string RG { get; set; }
         public virtual DateTime DataDeNascimento { get; set; }
 
-        public Pessoa(string nome,int idFuncionario, string cpf,string rg,string nivelPermissao) {
-            //this.NivelPermissao = nivelPermissao;
+        public Pessoa(string nome,int idFuncionario, string cpf,string rg,DateTime dataDeNascimento,string nivelPermissao) {
             this.Nome = nome;
             this.IdFuncionario = idFuncionario;
             this.CPF = cpf;
             this.RG = rg;
+            this.DataDeNascimento = dataDeNascimento;
             this.NivelPermissao = nivelPermissao;
         }
     }

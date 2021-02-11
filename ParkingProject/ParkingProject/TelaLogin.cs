@@ -15,8 +15,8 @@ namespace ParkingProject
         private TelaDeSelecao telaDeSelecaoOperador;
 
         //Simular o banco de dados
-        private string[] Usuario { get; set; } = {"1","tubaroso"};
-        private string[] Senha { get; set; } = {"1","jare"};
+        private string[] Usuario { get; set; } = { "1", "tubaroso" };
+        private string[] Senha { get; set; } = { "1", "jare" };
 
         public TelaLogin()
         {
@@ -29,17 +29,23 @@ namespace ParkingProject
 
             if (Logar(tbUsuario.Text, tbSenha.Text))
             {
+                //if(função que retorna o nivel de permissao do caboclo()){   abre a tela com alguns elementos ocultos dependendo do nivel de permissao}
                 telaDeSelecaoOperador.Show();
                 this.Visible = false;
             }
-            else {
+            else
+            {
                 lbMensagemErro.Text = "Usuario ou senha inválidos!";
             }
         }
 
-        public Boolean Logar(string login, string senha) {
-            int contador = 0;          
-            foreach (string item in Usuario) {
+        //Função que retorna o nivel de permissao do usuario, query no banco: "select NivelPermissao from Pessoa where Usuario = " + tbUsuario.Text + " and Senha = " + tbSenha.Text
+
+        public Boolean Logar(string login, string senha)
+        {
+            int contador = 0;
+            foreach (string item in Usuario)
+            {
                 contador++;
                 if (tbUsuario.Text.Equals(Usuario[contador - 1]))
                 {
@@ -52,7 +58,8 @@ namespace ParkingProject
                         return false;
                     }
                 }
-                else {
+                else
+                {
                     return false;
                 }
             }

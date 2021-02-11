@@ -8,6 +8,6 @@ namespace ParkingProject.Heranca_Pessoa
 {
     public class Gerente : Pessoa
     {
-        public Gerente(string nome, int idFuncionario, string cpf, string rg) : base(nome,idFuncionario,cpf,rg,"GERENTE") { }
+        public Gerente(string usuario,string senha,string nome, int idFuncionario, string cpf, string rg,DateTime dataNascimento) : base(usuario,senha,nome,idFuncionario,cpf,rg,dataNascimento, "GERENTE") { }
     }
 }

@@ -42,7 +42,7 @@
             this.btDesconectar = new System.Windows.Forms.Button();
             this.tbDataAtual = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.tbNome = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -169,20 +169,20 @@
             this.textBox2.Size = new System.Drawing.Size(100, 20);
             this.textBox2.TabIndex = 15;
             // 
-            // textBox3
+            // tbNome
             // 
-            this.textBox3.Location = new System.Drawing.Point(580, 9);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.ReadOnly = true;
-            this.textBox3.Size = new System.Drawing.Size(154, 20);
-            this.textBox3.TabIndex = 16;
+            this.tbNome.Location = new System.Drawing.Point(580, 9);
+            this.tbNome.Name = "tbNome";
+            this.tbNome.ReadOnly = true;
+            this.tbNome.Size = new System.Drawing.Size(154, 20);
+            this.tbNome.TabIndex = 16;
             // 
             // TelaDeSelecao
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.tbNome);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.tbDataAtual);
             this.Controls.Add(this.btDesconectar);
@@ -221,6 +221,6 @@
         private System.Windows.Forms.Button btDesconectar;
         private System.Windows.Forms.TextBox tbDataAtual;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox tbNome;
     }
 }

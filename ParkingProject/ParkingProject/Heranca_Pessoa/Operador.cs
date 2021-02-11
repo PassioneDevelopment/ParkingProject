@@ -8,6 +8,6 @@ namespace ParkingProject.Heranca_Pessoa
 {
     public class Operador : Pessoa
     {
-        public Operador(string nome, int idFuncionario, string cpf, string rg) : base(nome, idFuncionario, cpf, rg) { }
+        public Operador(string nome, int idFuncionario, string cpf, string rg) : base(nome, idFuncionario, cpf, rg,"OPERADOR") { }       
     }
 }

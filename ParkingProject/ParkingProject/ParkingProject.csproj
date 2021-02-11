@@ -46,6 +46,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Heranca_Pessoa\Gerente.cs" />
+    <Compile Include="Heranca_Pessoa\Operador.cs" />
+    <Compile Include="Heranca_Pessoa\Pessoa.cs" />
     <Compile Include="TelaDeSelecao.cs">
       <SubType>Form</SubType>
     </Compile>

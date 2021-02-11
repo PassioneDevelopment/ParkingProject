@@ -8,19 +8,20 @@ namespace ParkingProject.Heranca_Pessoa
 {
     public abstract class Pessoa
     {
-        //protected abstract string NivelPermissao { get; set; }
-        protected virtual string Nome { get; set; }
-        protected virtual int IdFuncionario { get; set; }
-        protected virtual string CPF { get; set; }
-        protected virtual string RG { get; set; }
-        protected virtual DateTime DataDeNascimento { get; set; }
+        public virtual string NivelPermissao { get; }
+        public virtual string Nome { get; set; }
+        public virtual int IdFuncionario { get; set; }
+        public virtual string CPF { get; set; }
+        public virtual string RG { get; set; }
+        public virtual DateTime DataDeNascimento { get; set; }
 
-        public Pessoa(string nome,int idFuncionario, string cpf,string rg) {
+        public Pessoa(string nome,int idFuncionario, string cpf,string rg,string nivelPermissao) {
             //this.NivelPermissao = nivelPermissao;
             this.Nome = nome;
             this.IdFuncionario = idFuncionario;
             this.CPF = cpf;
             this.RG = rg;
+            this.NivelPermissao = nivelPermissao;
         }
     }
 }
